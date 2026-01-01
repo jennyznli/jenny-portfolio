@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* ===== HEADINGS ===== */
+  
+  .heading-xanh-xl {
+    @apply text-5xl md:text-6xl lg:text-7xl italic font-xanh-mono tracking-tight;
+    @apply text-gray-900 dark:text-white;
+  }
+  
+  .heading-xanh-lg {
+    @apply text-4xl md:text-5xl italic font-xanh-mono tracking-tight;
+    @apply text-gray-900 dark:text-white;
+  }
+  
+  .heading-xanh-md {
+    @apply text-3xl md:text-4xl italic font-xanh-mono;
+    @apply text-gray-900 dark:text-white;
+  }
+  
+  .heading-xanh-sm {
+    @apply text-2xl md:text-3xl italic font-xanh-mono;
+    @apply text-gray-900 dark:text-white;
+  }
+
+  .heading-xanh-xs {
+    @apply text-xl md:text-2xl italic font-xanh-mono;
+    @apply text-gray-900 dark:text-white;
+  }
+  
+  /* ===== SUBHEADINGS ===== */
+  
+  .subheading-mono-bold {
+    @apply text-base md:text-lg font-medium font-geist-mono;
+    @apply text-gray-800 dark:text-gray-200;
+  }
+
+  .subheading-mono {
+    @apply text-base md:text-lg font-normal font-geist-mono;
+    @apply text-gray-800 dark:text-gray-200;
+  }
+
+  /* ===== BODY TEXT ===== */
+  
+  .body-lg {
+    @apply text-lg font-inter font-normal leading-relaxed;
+    @apply text-gray-800 dark:text-gray-200;
+  }
+
+  .body-mono-lg {
+    @apply text-lg font-geist-mono font-normal leading-relaxed;
+    @apply text-gray-800 dark:text-gray-200;
+  }
+  
+  .body-md {
+    @apply text-base font-inter font-normal leading-relaxed;
+    @apply text-gray-800 dark:text-gray-200;
+  }
+
+  .body-mono-md {
+    @apply text-base font-geist-mono font-normal leading-relaxed;
+    @apply text-gray-800 dark:text-gray-200;
+  }
+  
+  .body-sm {
+    @apply text-sm font-inter font-normal leading-relaxed;
+    @apply text-gray-800 dark:text-gray-200;
+  }
+  
+  .body-mono-sm {
+    @apply text-sm font-geist-mono font-normal leading-relaxed;
+    @apply text-gray-800 dark:text-gray-200;
+  }
+  
+  /* ===== LABELS & CAPTIONS ===== */
+  
+  .label {
+    @apply text-sm font-geist-mono font-medium uppercase tracking-wider;
+    @apply text-gray-700 dark:text-gray-300;
+  }
+  
+  .caption {
+    @apply text-xs font-inter italic;
+    @apply text-gray-500 dark:text-gray-400;
+  }  
+}
+
+@layer utilities {  
+  .font-inter {
+    font-family: var(--font-inter);
+  }
+  
+  .font-geist-mono {
+    font-family: var(--font-geist-mono);
+  }
+  
+  .font-xanh-mono {
+    font-family: var(--font-xanh-mono);
+  }
+}
