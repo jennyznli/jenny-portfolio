@@ -25,7 +25,7 @@ export const portfolioSections = [
 
   {
     title: 'ANTH 0020',
-    url: '/anth0020.png',
+    url: '/anth0020',
     image: null,
   },
 
